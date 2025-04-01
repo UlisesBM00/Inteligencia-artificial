@@ -28,18 +28,12 @@ Se implementa procesamiento de texto, transformación TF-IDF y clasificación co
 
 ## ⚙️ Instalación y configuración
 
-1️⃣ Clonar el repositorio
-```bash
-@@@@@@@@@Cambiar@@@@@@@@@@@ git clone https://github.com/tu_usuario/Spam_Detection.git
-cd Spam_Detection
-```
-
-2️⃣ Instalar dependencias  
+1️⃣ Instalar dependencias  
 ```bash
 pip install -r requirements.txt
 ```
 
-3️⃣ Descargar los datos de NLTK (si no los tienes)  
+2️⃣ Descargar los datos de NLTK (si no los tienes)  
 ```python
 import nltk
 nltk.download('punkt')
